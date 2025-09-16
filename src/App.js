@@ -10,9 +10,13 @@ function App() {
       data-theme={isDark ? 'dark' : 'light'}
       className={`${isDark ? 'bg-[#121217] text-white' : 'bg-white text-[#121217]'}`}
     >
-      <Menu isDark={isDark} setIsDark={setIsDark} />
+      <div className={`min-h-screen w-full flex flex-col ${isDark ? 'bg-[#121217] text-white' : 'bg-white text-[#121217]'}`}>
+        <Menu isDark={isDark} setIsDark={setIsDark} />
+        <AppRoutes isDark={isDark} />
+      </div>
+      
 
-      <AppRoutes isDark={isDark} />
+     
 
     </div>
   );

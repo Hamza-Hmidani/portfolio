@@ -4,7 +4,7 @@ export default function Services({ isDark }) {
     const arrowRight = "M16 8l5 5-5 5 M21 13H3";
     
     return (
-        <div className='px-8 pb-20 m-15 mt-5'>
+        <div className='p-3 m-15 mt-4 pr-9 pl-9'>
             <main className={`mx-15 px-6 grid grid-cols-1 md:grid-cols-2 gap-x-5 gap-y-31 ${isDark ? 'text-white' : 'text-[#121217]'}`}>
                 {servicesData.map((service) => (
                     

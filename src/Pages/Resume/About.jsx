@@ -2,7 +2,7 @@ import LeftSide from "./LeftSide"
 
 export default function About({ isDark }) {
     return (
-        <main className="max-w-7xl mx-auto px-10 flex flex-col md:flex-row gap-16 md:gap-24 pb-20">
+        <main className="max-w-7xl mx-auto px-10 flex flex-col md:flex-row gap-16 md:gap-24">
             <LeftSide />
 
             <section className="flex flex-col max-w-2xl space-y-6 mb-40">

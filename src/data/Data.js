@@ -2,26 +2,26 @@ export const servicesData = [
     {
         id: 1,
         number: "01",
-        title: "Développement Web",
-        description: "Création de sites web modernes et réactifs avec les dernières technologies pour une expérience utilisateur optimale."
+        title: "Backend Development",
+        description: "Conception et implémentation d’APIs RESTful sécurisées et scalables ."
     },
     {
         id: 2,
         number: "02",
-        title: "Design UI/UX",
-        description: "Conception d'interfaces utilisateur intuitives et esthétiques pour une expérience utilisateur exceptionnelle."
+        title: "Frontend Development",
+        description: "interfaces utilisateurs responsives et modernes avec HTML, CSS, JavaScript,React, Bootstrap, TailwindCSS."
     },
     {
         id: 3,
         number: "03",
-        title: "Création de Logo",
-        description: "Création d'identités visuelles uniques et mémorables pour votre marque ou entreprise."
+        title: "Intégration & Design",
+        description: "transformation de maquettes (UI/UX) en pages web fonctionnelles et optimisées ."
     },
     {
         id: 4,
         number: "04",
-        title: "Référencement SEO",
-        description: "Optimisation de votre visibilité en ligne pour améliorer votre classement dans les moteurs de recherche."
+        title: "Gestion de Code & Collaboration",
+        description: "maîtrise de Git, GitHub, GitLab pour un travail en équipe fluide et professionnel."
     }
 ];
 

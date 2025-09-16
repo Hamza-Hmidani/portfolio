@@ -5,32 +5,29 @@
 }
 
 .home-img{
-  border-radius: 50%;
+  border-radius: 30%;
 }
 .home-img img{
   position: relative;
-  width: 32vw;
-  border-radius: 50%;
+  width: 16vw;
+  border-radius: 40%;
   box-shadow: 0 0 25px solid #b74b4b;
   cursor: pointer;
   transition: 0.2s linear;
 }
 .home-img img:hover{
-  font-size: 1.8rem;
-  font-weight: 500;
+  font-size: 1rem;
+  font-weight: 450;
 }
 .typing-text{
-  font-size: 34px;
+  font-size: 31px;
   font-weight: 600;
   min-width: 280px;
 }
 span{
   color: #1eff7a;
 }
-.typing-text span{
-  position: relative;
-}
-.typing-text span{
+ .typing-text span{
   position: relative;
 }
 .typing-text span::before{
@@ -69,10 +66,10 @@ span{
       content: "Développeur Web";
   }
   21%, 40%{
-      content: "Développeur Front-end";
+      content: "développeur Front-end";
   }
   41%, 60%{
-      content: "Designer UI/UX";
+      content: "développeur back-end";
   }
   61%, 80%{
       content: "Créateur Web";
@@ -84,6 +81,14 @@ span{
 @media (max-width: 1000px){
   .home{
       gap: 4rem;
+  }
+  .home-img img{
+    width: 35vw;
+  }
+  .typing-text{
+    font-size: 24px;
+    max-width: 350px;
+    
   }
 }
 

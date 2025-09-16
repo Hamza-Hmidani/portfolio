@@ -3,7 +3,7 @@ import { experienceData } from "../../data/Data"
 
 export default function Experience({ isDark }) {
     return (
-        <main className="max-w-7xl mx-auto px-10 flex flex-col md:flex-row gap-16 md:gap-24 pb-20">
+        <main className="max-w-7xl mx-auto flex flex-col md:flex-row gap-16 md:gap-24 px-10 pb-20">
             {/* <!-- Left side --> */}
             <LeftSide />
 

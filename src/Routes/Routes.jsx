@@ -20,6 +20,7 @@ export default function AppRoutes({ isDark }) {
 
             <Route path="/projects" element={<Projects isDark={isDark} />} />
             <Route path="/contact" element={<Contact isDark={isDark} />} />
+            <Route path="/contact1" element={<Contact isDark={isDark} />} />
 
 
 
