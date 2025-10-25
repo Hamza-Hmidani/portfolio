@@ -3,12 +3,12 @@ import { NavLink } from "react-router-dom";
 
 export default function LeftSide(){
     return(
-        <section class="flex flex-col gap-6 md:w-1/3">
-            <h2 class="text-3xl font-bold">Why hire me?</h2>
-            <p class="text-gray-400 leading-relaxed">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        <section className="flex flex-col gap-6 md:w-1/3">
+            <h2 className="text-3xl font-bold">Pourquoi me choisir ?</h2>
+            <p className="text-gray-400 leading-relaxed">
+                Passionné, rigoureux et créatif, je mets mon expertise au service de vos projets web pour garantir leur réussite.
             </p>
-            <div class="flex flex-col gap-3">
+            <div className="flex flex-col gap-3">
                 <NavLink
                     className={({ isActive }) => 
                         isActive 
@@ -17,7 +17,7 @@ export default function LeftSide(){
                     }
                     to="/resume"
                 >
-                    Experience
+                    Expérience
                 </NavLink>
                 <NavLink
                     className={({ isActive }) => 
@@ -27,7 +27,7 @@ export default function LeftSide(){
                     }
                     to="/education"
                 >
-                    Education
+                    Formation
                 </NavLink>
                 <NavLink
                     className={({ isActive }) => 
@@ -47,7 +47,7 @@ export default function LeftSide(){
                     }
                     to="/about"
                 >
-                    Sur moi
+                    À propos
                 </NavLink>
             </div>
         </section>

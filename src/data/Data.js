@@ -28,59 +28,48 @@ export const servicesData = [
 export const experienceData = [
     {
         id: 1,
-        period: "2020 - 2021",
-        title: "Freelance Web Developer",
-        company: "E-commerce Startup",
+        period: "2025",
+        title: "Stagiaire Développeur Full-Stack",
+        company: "NewDev",
     },
     {
         id: 2,
-        period: "2019 - 2020",
-        title: "Teaching Assistant",
-        company: "Tech Academy",
+        period: "2024 - 2025",
+        title: "Projet Académique – Gestion Hôtelière",
+        company: "OFPPT",
     },
     {
         id: 3,
-        period: "2018 - 2019",
-        title: "Junior Developer",
-        company: "Startup Hub",
+        period: "2024",
+        title: "Projet Académique – Gestion de Stock",
+        company: "OFPPT",
     },
     {
         id: 4,
-        period: "2017 - 2018",
-        title: "Intern Developer",
-        company: "Code Factory",
-    },{
-        id: 5,
-        period: "2017 - 2018",
-        title: "Intern Developer",
-        company: "Code Factory",
+        period: "2023 - 2024",
+        title: "Portfolio Développeur Web",
+        company: "Projet Personnel",
     }
 ];
 
 export const educationData = [
     {
         id: 1,
-        period: "2019 - 2022",
-        degree: "Licence en Développement Web",
-        school: "Université de Technologies"
+        period: "2025-2026",
+        degree: "Licence Professionnelle en Ingénierie Informatique",
+        school: "Sup-management"
     },
     {
         id: 2,
-        period: "2017 - 2019",
-        degree: "DUT Informatique",
-        school: "Institut Universitaire de Technologie"
+        period: "2023-2025",
+        degree: "Diplôme Développement Digital – Option Full-Stack",
+        school: "ofppt - IFMOTICA"
     },
     {
         id: 3,
-        period: "2016 - 2017",
-        degree: "Baccalauréat Sciences",
-        school: "Lycée Technique"
-    },
-    {
-        id: 4,
         period: "2023",
-        degree: "Certification React.js",
-        school: "OpenClassrooms"
+        degree: "bac science physique",
+        school: "Lycée Abderahim Bouabid"
     }
 ];
 

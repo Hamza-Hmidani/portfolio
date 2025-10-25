@@ -25,7 +25,7 @@ export default function About({ isDark }) {
                     </div>
                     <div className="flex space-x-2 m-1">
                         <strong className="text-gray-500">Skype</strong>
-                        <span className="text-white font-semibold">hamza.dev</span>
+                        <span className="text-white font-semibold">hamza.code</span>
                     </div>
                     <div className="flex space-x-2 m-1">
                         <strong className="text-gray-500">Nationalité</strong>
