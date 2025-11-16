@@ -33,7 +33,7 @@ export default function Projects({ isDark }) {
     return (
         <main className={`flex flex-col lg:flex-row items-center justify-center flex-grow max-w-7xl mx-auto px-8 gap-12 ${isDark ? 'text-white' : 'text-[#121217]'}`}>
             <section className="flex flex-col max-w-xl w-lg h-[400px] space-y-6 mb-20">
-                <h2 className="text-[90px] text-white font-extrabold stroke-[1px] leading-none select-none mb-4">
+                <h2 className="text-[90px] font-extrabold stroke-[1px] leading-none select-none mb-4">
                     {currentProject.number}
                 </h2>
                 <h3 className="text-3xl font-semibold mb-4">
@@ -74,16 +74,18 @@ export default function Projects({ isDark }) {
                     </a>
                 </div>
             </section>
-            <section className="relative max-w-3xl w-lg h-[300px] mb-20">
+            <section className="relative h-[400px] mb-20">
                 <img 
                     src={currentProject.images[currentImageIndex]}
                     alt={`${currentProject.title} - Image ${currentImageIndex + 1}`}
-                    className="rounded-md w-full h-full object-cover cursor-pointer"
+                    className="rounded-md w-xl h-full mb-8 object-cover cursor-pointer"
                     onClick={nextImage}
+                     
                 />
+            
                 
                 {/* Image thumbnails */}
-                <div className="absolute -bottom-12 left-0 flex space-x-2">
+                <div className="absolute -bottom-12 left-0 flex space-x-2 bt-8">
                     {currentProject.images.map((image, index) => (
                         <button
                             key={index}

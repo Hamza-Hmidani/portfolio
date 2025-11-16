@@ -18,7 +18,7 @@ export function Contact({ isDark }) {
         e.preventDefault();
         // You can use EmailJS, Formspree, or your backend here.
         // Example: open mail client with prefilled info
-        window.location.href = `mailto:hmidanh855@gmail.com?subject=Contact depuis le portfolio&body=
+        window.location.href = `mailto:hamidanh855@gmail.com?subject=Contact depuis le portfolio&body=
 Nom: ${form.nom}%0D%0A
 Prénom: ${form.prenom}%0D%0A
 Email: ${form.email}%0D%0A
@@ -125,7 +125,7 @@ Message: ${form.message}`;
                     </div>
                     <div>
                         <p className="text-gray-400 text-xs mb-1">Email</p>
-                        <p className="font-semibold text-lg font-mono">hmidanh855@gmail.com</p>
+                        <p className="font-semibold text-lg font-mono">hamidanh855@gmail.com</p>
                     </div>
                 </div>
                 <div className="flex items-center gap-4">

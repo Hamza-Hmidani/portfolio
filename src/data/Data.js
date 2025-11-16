@@ -49,6 +49,18 @@ export const experienceData = [
         period: "2023 - 2024",
         title: "Portfolio Développeur Web",
         company: "Projet Personnel",
+    },
+    {
+        id: 5,
+        period: "2024",
+        title: "Site vitrine pour cabinet médical",
+        company: "Projet Personnel",
+    },
+    {
+        id: 6,
+        period: "2023 - 2024",
+        title: "Boutique WooCommerce (WordPress)",
+        company: "Projet Personnel",
     }
 ];
 
